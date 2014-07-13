@@ -2,6 +2,8 @@
 
 ./scripts/init_git.sh
 
+./scripts/init_md.sh
+
 current_dir=`pwd`
 the_project=`basename ${current_dir}`
 
