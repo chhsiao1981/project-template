@@ -3,6 +3,8 @@
 if [ "${BASH_ARGC}" != 2 ]
 then
   echo "usage: commit_tag.sh [comment] [tag]"
+  echo ""
+  git tag
   exit 0
 fi
 
