@@ -21,8 +21,9 @@ This intends to do the following:
 
 in addition:
 
-1. scripts/init_git.sh (restart .git)
-2. scripts/init_md.sh (restart .md)
+1. scripts/init_git.sh (re-init .git)
+2. scripts/init_md.sh (re-init .md)
+2. scripts/init_travis.sh (re-init .travis.yml)
 
 This is mainly for speeding up developing my projects.
 All are welcome to fork and improve this template.
