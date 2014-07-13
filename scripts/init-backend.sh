@@ -13,7 +13,7 @@ current_dir=`pwd`
 mkdir -p "${sub_project}"
 cd "${sub_project}"
 
-git clone "${scripts_backend}" scripts
+git clone "${scripts_backend}" .
 
 scripts/init_dev.sh
 
