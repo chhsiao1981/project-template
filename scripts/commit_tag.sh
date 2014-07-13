@@ -10,4 +10,4 @@ comment="${BASH_ARGV[1]}"
 tag="${BASH_ARGV[0]}"
 
 git tag "${tag}"
-git add .; git commit -m "${comment}"; git tag "${tag}"; git push -f origin master -t
+git add .; git commit -m "${comment}"; git tag "${tag}"; git push -f --tag origin master
