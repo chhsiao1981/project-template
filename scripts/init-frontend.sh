@@ -19,6 +19,6 @@ scripts/init_dev.sh
 
 cd "${current_dir}"
 
-sed "s/\[PROJECT\]/${sub_project}/g" scripts/scripts_op.tmpl > scripts_op/${sub_project}.sh
 mkdir -p scripts_op
+sed "s/\[PROJECT\]/${sub_project}/g" scripts/scripts_op.tmpl > scripts_op/${sub_project}.sh
 chmod 755 scripts_op/${sub_project}.sh
