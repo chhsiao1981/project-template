@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ "${BASH_ARGC}" != "1" ]
+then
+  echo "usage: [PROJECT].sh [ini_filename]"
+  exit 0
+fi
+
+ini_filename="${BASH_ARGV[0]}"
+
+full_ini_filename=`python -c "import os; print os.path.abspath('${ini_filename}')"`
+
+current_dir=`pwd`
+
+cd [PROJECT]
+
+./scripts_op/run.sh "${full_ini_filename}"
+
+cd "${current_dir}"
