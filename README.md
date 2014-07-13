@@ -1,6 +1,12 @@
 project-template
 ================
 
+usage
+-----
+git clone https://github.com/chhsiao1981/project-template.git .; ./scripts/init.sh
+
+intro
+-----
 A high-level project template including scripts of generating front-end/back-end sub-project template
 
 This intends to do the following:
