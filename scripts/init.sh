@@ -4,6 +4,8 @@
 
 ./scripts/init_md.sh
 
+./scripts/init_travis.sh
+
 current_dir=`pwd`
 the_project=`basename ${current_dir}`
 

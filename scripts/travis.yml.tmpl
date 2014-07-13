@@ -1,0 +1,8 @@
+language: python
+
+before_script:
+  - npm install karma
+
+script:
+  - cd [PROJECT]-backend; ./scripts/test_single.sh; cd ..
+  - cd [PROJECT]-frontend; ./scripts/test_single.sh; cd ..
